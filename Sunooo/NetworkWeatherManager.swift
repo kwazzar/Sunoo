@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct NetworkWeatherManager {
+class NetworkWeatherManager {
     
     var onCompletion: ((CurrentWeather) -> Void)?
-    
+     
     func fetchCurrentWeather(forCity city: String) {
     let urlString = "https://api.openweathermap.org/data/2.5/weather?q=\(city)&apikey=\(apiKey)"
         guard let url = URL(string: urlString) else { return }
