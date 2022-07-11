@@ -48,8 +48,8 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hRT-tx-O8O">
                                 <rect key="frame" x="119.5" y="81" width="175.5" height="293.5"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud.rain.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="GFK-90-sIj">
-                                        <rect key="frame" x="2.5" y="0.0" width="170" height="171.5"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nosign" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="GFK-90-sIj">
+                                        <rect key="frame" x="2.5" y="0.5" width="170" height="169"/>
                                         <color key="tintColor" name="infoColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="170" id="CeK-US-a2X"/>
@@ -120,15 +120,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-170" y="-12"/>
+            <point key="canvasLocation" x="-91" y="-250"/>
         </scene>
     </scenes>
     <resources>
         <image name="background" width="375" height="667"/>
-        <image name="cloud.rain.fill" catalog="system" width="125" height="128"/>
         <image name="magnifyingglass.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="nosign" catalog="system" width="128" height="121"/>
         <namedColor name="infoColor">
-            <color red="0.95099999999999996" green="1" blue="0.66900000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.95099997520446777" green="1" blue="0.66900002956390381" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
